@@ -31,8 +31,8 @@ public class TestAuction {
 		bids.add(bid2);
 		bids.add(bid3);
 		AuctionItem item = new AuctionItem();
-		item.setId(1);
-		item.setDescription("auction 1");
+		item.setId(2);
+		item.setDescription("auction 2");
 		item.setBids(bids);
 
 		SessionFactory sf = new Configuration().configure().buildSessionFactory();
