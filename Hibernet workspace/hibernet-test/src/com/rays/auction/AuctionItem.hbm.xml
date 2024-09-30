@@ -8,7 +8,7 @@
 			<column name="ID" />
 			<generator class="assigned" />
 		</id>
-		<set name="bids" table="AUCTIONITEM" cascade="all" lazy="true">
+		<set name="bids" table="AUCTIONITEM" cascade="all" fetch="join">
 			<key>
 				<column name="ITEM_ID" />
 			</key>
